@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.cta {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: 100%;
+    border-bottom: 10px solid rgb(56, 56, 56);
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: max-content;
+    background-color: none;
+}
+
+header img {
+    width: 15vw;
+    height: 100%;
+    padding-right: 35%;
+    cursor: pointer;
+}
+
+header button {
+    height: 5vh;
+    width: 6vw;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+}
+
+.cta .cta-text{
+    font-size: 28px;
+}
+
+.cta .cta-text h1 {
+    margin-top: 14%;
+}
+
+.cta .cta-text p{
+    margin-top: -1.5%;
+    font-size: 24px;
+}
+
+.cta-text .p :last-child {
+    margin-top: -2%;
+    font-size: 21px;
+}
+
+.cta .cta-text .inputbutton {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta .cta-text input {
+    width: 28vw;
+    height: 8.2vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    padding-inline-start: 20px;
+    background-color: rgb(15, 15, 15);
+}
+
+.cta .cta-text img{
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.cta-tv {
+    display: flex;
+    height: 75vh;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 10px solid rgb(56, 56, 56);
+}
+
+.cta-tv .cta-text-tv {
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+    width: 35vw;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta-tv .cta-text-t {
+    color: white;
+    margin-top: 0%;
+    width: 40vw;
+    padding-left: 50px;
+}
+
+.cta-tv .cta-text-t h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.cta-tv .cta-text-tv p {
+    margin-top: -3%;
+}
+
+.cta-tv img{
+    height: 60vh;
+}
+
+.cta-tv .cta-text-t2 {
+    color: white;
+    margin-top: 0%;
+    width: 40vw;
+    padding-left: 20px;
+}
+
+.cta-tv .cta-text-t2 h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.ctas :nth-child(3) img {
+    border-radius: 50%;
+}
+
+.qa {
+    width: 100vw;
+    border-bottom: 10px solid rgb(56, 56, 56);
+}
+
+.qa h1 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.qa button {
+    width: 80vw;
+    height: 14vh;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: rgb(54, 52, 52);
+}
+
+.qa button p {
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.qa button :last-child {
+    font-size: 50px;
+    font-weight: 200;
+    margin-right: 20px;
+}
+
+.qa .question button :hover {
+    background-color: rgb(82, 81, 81);
+    cursor: pointer;
+}
+
+.qa p {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.qa .inputbutton {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.qa .inputbutton input {
+    width: 28vw;
+    height: 8.2vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    padding-inline-start: 20px;
+    background-color: rgb(15, 15, 15);
+}
+
+.qa .inputbutton img{
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.qa .question {
+    width: 80vw;
+    height: max-content;
+    justify-content: space-around;
+    background-color: rgb(54, 52, 52);
+    margin-left: 10%;
+    align-items: center;
+}
+
+.question .p {
+    width: 75vw;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 23px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.question .p :hover {
+    cursor: text;
+}
+
+footer {
+    width: 100vw;
+    height: max-content;
+}
+
+footer p {
+    margin-left: 10%;
+    padding-top: 40px;
+    color: white;
+}
+
+footer .links {
+    width: 80vw;
+    margin-left: 10%;
+    display: grid;
+    line-height: 2;
+    font-family: sans-serif;
+    font-size: 14px;
+    grid-template-columns: auto auto auto;
+}
+
+footer a {
+    color: rgb(175, 171, 171);
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+
+footer button {
+    width: 8vw;
+    height: 5vh;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: white;
+    font-family: sans-serif;
+    border: 1px solid gray;
+    background-color: rgb(15, 15, 15);
+}
+
+footer .country {
+    padding-top: 10px;
+    color: rgb(175, 171, 171);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+@media (max-width: 1000px) {
+    .cta-tv .cta-text-t .cta-text-tv {
+        width: 45vw;
+    }
+    .cta-tv .cta-text-t2 {
+        width: 45vw;
+    }
+}
+
+@media (max-width: 960px) {
+    .cta header img{
+        margin-left: -5%;
+        margin-top: 1%;
+    }
+    .cta header button {
+        margin-left: 17%;
+        width: 8vw;
+        margin-top: 1%;
+    }
+    .cta {
+        height: 80vh;
+    }
+    .cta .cta-text h1 {
+        font-size: xx-large;
+    }
+    .cta .cta-text p {
+        font-size: large;
+        margin-top: -0.5%;
+    }
+    .cta .cta-text .p :last-child {
+        font-size: large;
+    }
+    .cta .inputbutton input {
+        width: 35vw;
+    }
+    .cta-tv {
+        flex-direction: column;
+        height: max-content;
+    }
+    .cta-tv .cta-text-t {
+        width: 100vw;
+        text-align: center;
+    }
+    .cta-tv .cta-text-t h1 {
+        font-size: xx-large;
+        font-weight: 700;
+        margin-top: 7%;
+        font-family: sans-serif;
+    }
+    .cta-tv .cta-text-t2 {
+        width: 100vw;
+        text-align: center;
+    }
+    .cta-tv .cta-text-t2 h1 {
+        font-size: xx-large;
+        font-weight: 700;
+        margin-top: 7%;
+        font-family: sans-serif;
+    }
+    .cta-tv .cta-text-tv p{
+        width: 100vw;
+        font-size: large;
+        text-align: center;
+        margin-top: 1%;
+    }
+    .cta-tv .cta-text-tv {
+        width: 100vw;
+    }
+    .cta-tv img {
+        height: 100%;
+        padding-bottom: 70px;
+    }
+    .ctas :nth-child(2) {
+        flex-direction: column-reverse;
+        height: max-content;
+    }
+    .ctas :nth-child(3) {
+        flex-direction: column;
+        height: max-content;
+    }
+    .ctas :nth-child(4) {
+        flex-direction: column-reverse;
+        height: max-content;
+    }
+    .ctas .cta-tv .cta-text-t2 .cta-text-tv :nth-child() {
+        width: 60vw;
+    }
+    .qa h1 {
+        font-size: xx-large;
+    }
+    .qa .question {
+        width: 90vw;
+        margin-left: 5%;
+    }
+    .qa .question button {
+        width: 90vw;
+        height: 12vh;
+    }
+    .qa .question button p{
+        font-size: large;
+    }
+    .qa .question button :last-child {
+        font-size: x-large;
+    }
+    .qa .question .p {
+        font-size: large;
+    }
+    .qa p {
+        font-size: large;
+    }
+    .qa .inputbutton input {
+        width: 37vw;
+    }
+    footer p {
+        margin-left: 5%;
+    }
+    footer .links {
+        width: 90vw;
+        line-height: 2.5;
+        margin-left: 5%;
+        grid-template-columns: auto auto auto auto;
+    }
+    footer button {
+        width: 10vw;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    footer .links {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .cta header button {
+        width: 12vw;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .cta header img {
+        width: 20vw;
+        margin-top: 2%;
+        margin-left: -2%;
+    }
+    .cta {
+        height: 85vh;
+    }
+    .cta .cta-text {
+        width: 80vw;
+        margin-left: 8%;
+        margin-top: 20%;
+    }
+    .ctas .cta-tv img {
+        width: 80vw;
+        margin-left: 0%;
+    }
+    .cta .inputbutton input {
+        width: 45vw;
+        margin-left: -20%;
+    }
+    .cta-tv .cta-text-tv {
+        width: 80vw;
+    }
+    .cta-tv .cta-text-tv p{
+        width: 80vw;
+        margin: 0;
+        margin-left: -7%;
+    }
+    .cta-tv .cta-text-t {
+        width: 80vw;
+        margin-left: -13%;
+    }
+    .cta-tv .cta-text-t2 {
+        width: 80vw;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .cta-tv .cta-text-t2 p {
+        width: 90vw;
+    }
+    .cta-tv .cta-text-t p {
+        width: 90vw;
+    }
+    footer .links {
+        grid-template-columns: auto auto;
+    }
+    .qa .inputbutton input {
+        width: 45vw;
+        height: 8vh;
+    }
+    .ctas :nth-child(3) img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 596px) {
+    .cta .inputbutton {
+        flex-direction: column;
+    }
+    .cta .inputbutton input {
+        width: 80vw;
+    }
+    .cta .inputbutton img {
+        width: 25vw;
+        margin-top: 2%;
+        margin-left: -20%;
+    }
+    .qa .inputbutton {
+        flex-direction: column;
+    }
+    .qa .inputbutton input {
+        width: 80vw;
+    }
+    .qa .inputbutton img {
+        width: 25vw;
+        margin-top: 2%;
+    }
+}
+
+
+
